@@ -29,19 +29,22 @@ To implement this, a channel layer that uses Redis as its underlying storage mec
 ## Environment
 - Python 3.9
 - Librarires to install
+  
   ```shell
     pip install -r requirements.txt
- ```
+  ```
 - Extra libraries
-    - Django-channels: 
-    ```shell
+    - Django-channels:
+
+    ``` shell
     $ python -m pip install -U 'channels[daphne]'
     ```
     - *channels_redis* so that Channels knows how to interface with Redis
-    ```shell
+    ``` shell
     $ python3 -m pip install channels_redis
     ```
 - Redis server is run on *docker*. So, docker has to [installed](https://docs.docker.com/desktop/install/ubuntu/)
+
 ```shell
 $ python3 -m pip install channels_redis
 ```
