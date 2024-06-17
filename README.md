@@ -31,7 +31,7 @@ To implement this, a channel layer that uses Redis as its underlying storage mec
 - Librarires to install
   ```shell
     pip install -r requirements.txt
-  ```shell
+ ```
 - Extra libraries
     - Django-channels: 
     ```shell
